@@ -7,7 +7,7 @@ import { Card, CardContent } from "../components/ui/card";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-export const revlidate = 30; //revalidate at most 30 seconds
+export const revalidate = 30; //revalidate at most 30 seconds
 
 
 async function getData() {

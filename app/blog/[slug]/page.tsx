@@ -4,6 +4,8 @@ import { Heading1 } from "lucide-react";
 import { PortableText } from "next-sanity";
 import Image from "next/image";
 
+export const revlidate = 30;
+
 async function getData(slug: string) {
   const query = `*[_type == "blog" && slug.current == '${slug}']{
         "currentSlug" : slug.current,
